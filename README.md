@@ -1,2 +1,2 @@
 # CodingTime
-coding at anywhere in anytime
+code anywhere, anytime.
