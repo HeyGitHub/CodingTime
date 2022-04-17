@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CatRun.192150770.00" t="ExcludeRecursive" />
+    <e p="F:\Unity2019.2.9_Workspace\CatRun" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AssetBundleManager" t="Include">
+          <e p="AssetBundleLoadOperation.cs" t="Include" />
+          <e p="AssetBundleManager.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="AssetbundlesMenuItems.cs" t="Include" />
+            <e p="BuildScript.cs" t="Include" />
+            <e p="ExecuteInternalMono.cs" t="Include" />
+            <e p="LaunchAssetBundleServer.cs" t="Include" />
+          </e>
+          <e p="Utility.cs" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
+          <e p="BundleAndBuild.cs" t="Include" />
+        </e>
+        <e p="Link.xml" t="Include" />
+        <e p="README.txt" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AssetBundlesDatabaseHandler.cs" t="Include" />
+          <e p="Characters" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="CharacterAccessories.cs" t="Include" />
+            <e p="CharacterCollider.cs" t="Include" />
+            <e p="CharacterDatabase.cs" t="Include" />
+            <e p="CharacterInputController.cs" t="Include" />
+            <e p="RandomAnimation.cs" t="Include" />
+            <e p="RestartRunning.cs" t="Include" />
+          </e>
+          <e p="Coin.cs" t="Include" />
+          <e p="Consumable" t="Include">
+            <e p="Consumable.cs" t="Include" />
+            <e p="ConsumableDatabase.cs" t="Include" />
+            <e p="ConsumableIcon.cs" t="Include" />
+            <e p="Types" t="Include">
+              <e p="CoinMagnet.cs" t="Include" />
+              <e p="ExtraLife.cs" t="Include" />
+              <e p="Invincibility.cs" t="Include" />
+              <e p="Score2Multiplier.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CoroutineHandler.cs" t="Include" />
+          <e p="GameManager" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="GameOverState.cs" t="Include" />
+            <e p="GameState.cs" t="Include" />
+            <e p="LoadoutState.cs" t="Include" />
+            <e p="Modifier.cs" t="Include" />
+          </e>
+          <e p="Helpers.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
+          <e p="Missions" t="Include">
+            <e p="Missions.cs" t="Include" />
+          </e>
+          <e p="Obstacles" t="Include">
+            <e p="AllLaneObstacle.cs" t="Include" />
+            <e p="Missile.cs" t="Include" />
+            <e p="Obstacle.cs" t="Include" />
+            <e p="PatrollingObstacle.cs" t="Include" />
+            <e p="SimpleBarricade.cs" t="Include" />
+          </e>
+          <e p="OpenURL.cs" t="Include" />
+          <e p="PlayerData.cs" t="Include" />
+          <e p="Pooler.cs" t="Include" />
+          <e p="Sounds" t="Include">
+            <e p="CountdownSound.cs" t="Include" />
+            <e p="MusicPlayer.cs" t="Include" />
+          </e>
+          <e p="Themes" t="Include">
+            <e p="ThemeData.cs" t="Include" />
+            <e p="ThemeDatabase.cs" t="Include" />
+          </e>
+          <e p="Tracks" t="Include">
+            <e p="TrackManager.cs" t="Include" />
+            <e p="TrackSegment.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="AdsForMission.cs" t="Include" />
+            <e p="HighscoreUI.cs" t="Include" />
+            <e p="Leaderboard.cs" t="Include" />
+            <e p="LicenceDisplayer.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="MissionEntry.cs" t="Include" />
+            <e p="MissionUI.cs" t="Include" />
+            <e p="PowerupIcon.cs" t="Include" />
+            <e p="Settings" t="Include">
+              <e p="DataDeleteConfirmation.cs" t="Include" />
+              <e p="SettingPopup.cs" t="Include" />
+            </e>
+            <e p="Shop" t="Include">
+              <e p="IAPHandler.cs" t="Include" />
+              <e p="ShopAccessoriesList.cs" t="Include" />
+              <e p="ShopCharacterList.cs" t="Include" />
+              <e p="ShopItemList.cs" t="Include" />
+              <e p="ShopItemListItem.cs" t="Include" />
+              <e p="ShopList.cs" t="Include" />
+              <e p="ShopThemeList.cs" t="Include" />
+              <e p="ShopUI.cs" t="Include" />
+            </e>
+            <e p="StartButton.cs" t="Include" />
+          </e>
+          <e p="WorldCurver.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="CurvedCode.cginc" t="Include" />
+          <e p="CurvedRotation.shader" t="Include" />
+          <e p="CurvedUnlit.shader" t="Include" />
+          <e p="CurvedUnlitAlpha.shader" t="Include" />
+          <e p="CurvedUnlitCloud.shader" t="Include" />
+          <e p="UnlitBlinking.shader" t="Include" />
+          <e p="VertexColor.shader" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="place AssetBundles folder here.txt" t="Include" />
+        </e>
+      </e>
+      <e p="CatRun.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
