@@ -3,19 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorKeeper : MonoBehaviour {
+public class OperationKeeper : MonoBehaviour {
     
-    private static DoorKeeper _instance = null;
+    private static OperationKeeper _instance = null;
     
     private void Awake() {
         _instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
-    public static DoorKeeper Instance {
+    public static OperationKeeper Instance {
         get {
             if (_instance == null) {
-                _instance = new GameObject("DoorKeeper").AddComponent<DoorKeeper>();
+                _instance = new GameObject("DoorKeeper").AddComponent<OperationKeeper>();
             }
             return _instance;
         }
@@ -33,7 +33,7 @@ public class DoorKeeper : MonoBehaviour {
             if (Time.realtimeSinceStartup - lastOperationTime < OPERATION_INTERVAL) {
                 continuousTimes++;
             } else {
-                if (continuousTimes > 3) {
+                if (continuousTimes > 1) {
                     OperationTrigger();
                 }
                 continuousTimes = 1;
@@ -50,40 +50,42 @@ public class DoorKeeper : MonoBehaviour {
     private bool triggerStep2 = false;
     private bool triggerStep3 = false;
     private void OperationTrigger() {
+        if (triggerStep1 && triggerStep2 && triggerStep3) {
+            OpenDoor();
+            return;
+        }
+        
         if (continuousTimes == STEP_1) {
             if (!triggerStep1) {
                 triggerStep1 = true;
                 Debug.Log("step 1");
                 return;
             }
-            CloseDoor();
-        } else if (continuousTimes == STEP_2) {
+        } else if (triggerStep1 && continuousTimes == STEP_2) {
             if (!triggerStep2) {
                 triggerStep2 = true;
                 Debug.Log("step 2");
                 return;
             }
-            CloseDoor();
-        } else if (continuousTimes == STEP_3) {
+        } else if (triggerStep1 && triggerStep2 && continuousTimes == STEP_3) {
             if (!triggerStep3) {
                 triggerStep3 = true;
                 Debug.Log("step 3");
                 return;
             }
-            CloseDoor();
-        }
-        
-        OpenDoor();
-    }
-
-    private void OpenDoor() {
-        if (continuousTimes == 15) {
-            Debug.Log("handled:::" + continuousTimes);
-        } else if (continuousTimes == 20) {
-            Debug.Log("handled:::" + continuousTimes);
         }
         
         CloseDoor();
+    }
+
+    private void OpenDoor() {
+        CloseDoor();
+        
+        if (continuousTimes == 5) {
+            Debug.Log("handled:::" + continuousTimes);
+        } else if (continuousTimes == 8) {
+            Debug.Log("handled:::" + continuousTimes);
+        }
     }
 
     private void CloseDoor() {
