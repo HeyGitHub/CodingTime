@@ -1,4 +1,8 @@
-todo:5.4
+todo:完成，查重率7.25
+
+基于Unity3D的小猫快跑游戏设计与实现
+
+总结已修改
 
 
 http://c.biancheng.net/unity3d/
@@ -51,7 +55,9 @@ http://c.biancheng.net/unity3d/
 
 
 
-
+With the development of IT technology, the content of mobile games tends to be diversified and diversified, and users' requirements for mobile games are gradually increasing. At present, 3D games are more popular on mobile terminals. Compared with 2D games, 3D games can make players more integrated into the game, but the required development technology must be more complicated. Therefore, it is imperative to systematically sort out the comprehensive application of related technologies.
+The scene section splicing technology used in this game has a reasonable and ingenious arrangement, and various collision detection algorithms are carefully designed, which can accurately determine whether to pick up a prop or hit an obstacle, and randomly generate fish bones and various props in the scene section. The game design and development uses the Unity2019.2.9 version of the game engine, the script code editor uses JetBrains Rider2019.3.1, and the software engineering design process is used to design and implement system functions during development.
+The main interface of this design game is very simple and not over-designed, the operation is relatively simple, and the playability is strong. Each functional module developed has been tested and can be run and experienced very stably.
 
 
 
